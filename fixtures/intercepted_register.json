@@ -1,0 +1,34 @@
+[
+  {
+    "url": "https://robot-lab.onrender.com/api/auth/register",
+    "method": "POST",
+    "requestBody": {
+      "firstName": "Auto",
+      "lastName": "Tester",
+      "email": "capture_1759050379536@mail.com",
+      "password": "123456"
+    },
+    "responseBody": {
+      "_id": "68d8fa90c134865cd301b8eb",
+      "firstName": "Auto",
+      "lastName": "Tester",
+      "email": "capture_1759050379536@mail.com",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZDhmYTkwYzEzNDg2NWNkMzAxYjhlYiIsImlhdCI6MTc1OTA1MDM4NSwiZXhwIjoxNzU5MDUzOTg1fQ.GAdorLZxWhO0Pntn0_eP4DzvEwNHfZtaFSPb0p5NW3o"
+    },
+    "statusCode": 201
+  },
+  {
+    "url": "https://robot-lab.onrender.com/api/auth/register",
+    "method": "POST",
+    "requestBody": {
+      "firstName": "Fail",
+      "lastName": "Case",
+      "email": "boss2@gmail.com",
+      "password": "123456"
+    },
+    "responseBody": {
+      "message": "User already exists"
+    },
+    "statusCode": 400
+  }
+]

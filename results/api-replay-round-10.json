@@ -1,0 +1,13 @@
+{
+  "round": 10,
+  "timestamp": "2025-09-28T08:56:03.427Z",
+  "email": "replay_1759049750524_10@mail.com",
+  "status": 201,
+  "body": {
+    "_id": "68d8f825c134865cd301b8e2",
+    "firstName": "Auto",
+    "lastName": "Tester",
+    "email": "replay_1759049750524_10@mail.com",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZDhmODI1YzEzNDg2NWNkMzAxYjhlMiIsImlhdCI6MTc1OTA0OTc2NiwiZXhwIjoxNzU5MDUzMzY2fQ.wlrZYgj-Uneezps9hbO0GET73rfd43F3t8YTou5L42k"
+  }
+}
